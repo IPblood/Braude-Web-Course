@@ -15,7 +15,7 @@ set "formattedDate=%day%-%month%-%year:~-2%"
 
 :: Run Git commands
 git status
-git add .
+git add ./
 git commit -m "%formattedDate%"
 git push -u origin main
 
